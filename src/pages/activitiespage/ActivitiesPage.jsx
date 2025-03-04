@@ -5,7 +5,6 @@ import indoor from '../../assets/indoor.jpg.png'
 import baileLatino from '../../assets/baile latino.jpg'
 import danza from '../../assets/danza arabe.jpg'
 import local from '../../assets/local streching.jpg'
-import { Link } from 'react-router-dom'
 
 import './activitiesPage.css'
 

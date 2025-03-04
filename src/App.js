@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/">
-          <Route index element={<HomePage/>}/>
+          <Route path='/mdc-fitness-gym' index element={<HomePage/>}/>
           <Route path='/activities' element={<ActivitiesPage/>}/>
           <Route path='/signup' element={<SignUpPage/>}/>
           <Route path='/freeclass' element={<FreeClassPage/>}/>

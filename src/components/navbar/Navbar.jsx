@@ -19,7 +19,7 @@ const Navbar = () =>{
                     <div className="collapse navbar-collapse" id="navbar-menu">
                         <ul className="navbar-nav nav-ul">
                         <li className="nav-item nav-li">    
-                            <Link to={"/"}>
+                            <Link to={"/mdc-fitness-gym"}>
                                 <h3 className="nav-link nav-h3">Home</h3>
                             </Link>
                         </li>
