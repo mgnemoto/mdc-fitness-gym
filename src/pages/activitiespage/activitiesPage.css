@@ -1,0 +1,232 @@
+.home-card{
+    transition: 1s;
+    width: 40%;
+}
+
+.home-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-home-cards{
+    margin: 1% 0;
+    display: flex;
+}
+
+
+.title-duration{
+    width: 65%;
+}
+.duration{
+    width: 35%;
+    margin-left: 4%;
+}
+
+.intensity{
+    width: 65%;
+}
+
+.card-description{
+    border-top: solid black;
+    padding: 1%;
+}
+
+
+@keyframes crecer{
+    from{width: 0%;}
+    to{width: 33%}
+}
+
+@keyframes crecer-medio{
+    from{width: 0%;}
+    to{width: 66%}
+}
+
+@keyframes crecer-alto{
+    from{width: 0%;}
+    to{width: 100%}
+}
+
+.streching-padre, .indoor-padre, .yoga-padre, .boxeo-padre, .functional-padre{
+    margin-top: 1%;
+    margin-left: 4%;
+    width: 35%;
+    height: 20px;
+    border-radius: 4px;
+    border: solid black;
+    background-color: black;
+}
+
+.streching-hijo, .indoor-hijo, .yoga-hijo, .boxeo-hijo, .functional-hijo{
+    animation-duration: .6s;
+}
+
+/* Barra chiquita */
+
+.streching:hover .streching-hijo{
+    animation-name: crecer;
+    width: 33%;
+    border: solid yellow;
+    border-radius: 4px;
+    background-color: yellow;
+    height: 100%;
+}
+
+/* Barra mediana */
+
+.indoor:hover .indoor-hijo, .yoga:hover .yoga-hijo{
+    animation-name: crecer-medio;
+    width: 66%;
+    border: solid transparent;
+    border-radius: 4px;
+    border-image: linear-gradient(to right, yellow, orange) 1;
+    background-image: linear-gradient(to right, yellow, orange);
+    height: 100%;
+}
+
+/* Barra grande */
+
+.boxeo:hover .boxeo-hijo, .functional:hover .functional-hijo{
+    animation-name: crecer-alto;
+    width: 100%;
+    border-radius: 4px;
+    border: solid transparent;
+    border-image: linear-gradient(to right, yellow, orange, red) 1;
+    background-image: linear-gradient(to right, yellow, orange, red);
+    height: 100%;
+}
+
+@media (480px<width<768px){
+
+    .card-description{
+        display: none;
+    }
+
+ /* Barra chiquita */
+
+ .streching-hijo{
+    animation-duration: 4s;
+    animation-name: crecer;
+    width: 33%;
+    border: solid yellow;
+    border-radius: 4px;
+    background-color: yellow;
+    height: 100%;
+}
+
+/* Barra mediana */
+
+.indoor-hijo, .yoga-hijo{
+    animation-name: crecer-medio;
+    width: 66%;
+    border: solid transparent;
+    border-radius: 4px;
+    border-image: linear-gradient(to right, yellow, orange) 1;
+    background-image: linear-gradient(to right, yellow, orange);
+    height: 100%;
+}
+
+/* Barra grande */
+
+.boxeo-hijo{
+    animation-name: crecer-alto;
+    width: 100%;
+    border-radius: 4px;
+    border: solid transparent;
+    border-image: linear-gradient(to right, yellow, orange, red) 1;
+    background-image: linear-gradient(to right, yellow, orange, red);
+    height: 100%;
+}
+
+.functional-hijo{
+    animation-name: crecer-alto;
+    width: 100%;
+    border-radius: 4px;
+    border: solid transparent;
+    border-image: linear-gradient(to right, yellow, orange, red) 1;
+    background-image: linear-gradient(to right, yellow, orange, red);
+    height: 100%;
+}
+
+.home-card{
+    width: 45%;
+    margin-bottom: 3%;
+}
+
+.big-home-cards{
+    flex-direction: column;
+}
+
+}
+
+@media (width<=480px){
+
+    .card-description{
+        display: none;
+    }
+
+     /* Barra chiquita */
+
+ .streching-hijo{
+    animation-duration: 4s;
+    animation-name: crecer;
+    width: 33%;
+    border: solid yellow;
+    border-radius: 4px;
+    background-color: yellow;
+    height: 100%;
+}
+
+/* Barra mediana */
+
+.indoor-hijo, .yoga-hijo{
+    animation-duration: 4s;
+    animation-name: crecer-medio;
+    width: 66%;
+    border: solid transparent;
+    border-radius: 4px;
+    border-image: linear-gradient(to right, yellow, orange) 1;
+    background-image: linear-gradient(to right, yellow, orange);
+    height: 100%;
+}
+
+/* Barra grande */
+
+.boxeo-hijo{
+    animation-duration: 4s;
+    animation-name: crecer-alto;
+    width: 100%;
+    border-radius: 4px;
+    border: solid transparent;
+    border-image: linear-gradient(to right, yellow, orange, red) 1;
+    background-image: linear-gradient(to right, yellow, orange, red);
+    height: 100%;
+}
+
+.functional-hijo{
+    animation-duration: 4s;
+    animation-name: crecer-alto;
+    width: 100%;
+    border-radius: 4px;
+    border: solid transparent;
+    border-image: linear-gradient(to right, yellow, orange, red) 1;
+    background-image: linear-gradient(to right, yellow, orange, red);
+    height: 100%;
+}
+
+
+
+.home-card{
+    width: 45%;
+    margin-bottom: 3%;
+}
+
+.home-card-description{
+    display: none;
+}
+
+.big-home-cards{
+    flex-direction: column;
+}
+
+}

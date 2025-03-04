@@ -1,0 +1,230 @@
+a {
+    text-decoration: none;
+}
+
+.home-title{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title a{
+    text-decoration: none;
+    width: 30%;
+    padding: .5%;
+    transition: .5s;
+}
+.banner-button{
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 22px;
+    border: none;
+    width: 100%;
+    padding: 2%;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    transition: .5s;
+}
+
+
+.carrusel{
+    width: 98%;
+    margin: 1%;
+}
+
+
+.control-icon{
+    color: white;
+}
+
+.whatsapp{
+    width: 6%;
+    top: 80%;
+    left: 91%;
+    position: fixed;
+    fill:#25d366;
+    z-index: 999;
+}
+
+.banner-title{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.class-title{
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 2% 0;
+    padding: 1%;
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+
+
+.home-activities{
+    margin: 2% 1%;
+    width: 98%;
+    display: flex;
+}
+.home-activities-front{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+
+.home-activities-inner{
+    transform-style: preserve-3d;
+}
+
+.home-activities-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 5%;
+    width: 90%;
+    padding: 10% 10%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    color: white;
+    top: 5%;
+    position: absolute;
+    transition: .5s;
+}
+
+
+.home-activities-inner:hover .home-activities-back{
+    opacity: 1;
+}
+
+.home-activities-inner:hover .home-activities-front{
+    filter: grayscale(100%);
+}
+
+.control-custom{
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.home-planes{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.planes-item{
+    border: solid white;
+    border-radius: 6px;
+    margin: 0 4%;
+    padding: 1%;
+    width: 20%;
+    transform-style: preserve-3d;
+}
+
+.planes-item h4{
+    font-weight: 800;
+    font-size: 24px;
+    border-bottom: solid white;
+    
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.planes-item p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.descuento{
+    background-color: black;
+    border-radius: 4px;
+    font-size: 24px !important;
+    top: 0;
+    right: -15px;
+    position: absolute;
+    transform: rotate(30deg);
+    color: #25d366;
+    font-weight: 800;
+}
+
+
+
+
+@media (width<=480px){
+
+    .planes-item{
+        margin: 0 2%;
+        width: 28%;
+    }
+    
+    .planes-item h4{
+        font-size: 20px;
+    }
+    
+    .planes-item p{
+        font-size: 17px;
+    }
+    
+    .descuento{  
+        font-size: 20px !important;
+        top: -8px;
+        right: -20px;
+        position: absolute;
+    }
+
+    .whatsapp{
+        display: none;
+    }
+
+}
+
+@media (width<=820px){
+
+    .home-activities-back{
+        display: none;
+    }
+
+    .planes-item{
+        margin: 0 2%;
+        width: 28%;
+    }
+    
+    .planes-item h4{
+        font-size: 20px;
+    }
+    
+    .planes-item p{
+        font-size: 17px;
+    }
+    
+    .descuento{  
+        font-size: 20px !important;
+        top: -8px;
+        right: -20px;
+        position: absolute;
+    }
+}
+
+
+@media (480px<width<1000px){
+
+    .whatsapp{
+        width: 20%;
+        top: 85%;
+        left: 80%;
+        position: fixed;
+    }
+
+}

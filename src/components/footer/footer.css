@@ -1,0 +1,153 @@
+.top-footer{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+.top-footer-text{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.top-footer h3{
+    font-size: 34px;
+    color: white;
+}
+.footer-logo{
+    margin-right: 1%;
+    width: 130px;
+    height: auto;
+}
+.footer{
+    margin: 0;
+    padding: 2% 0;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul{
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li{
+    font-weight: 400;
+    text-align: center;
+    font-size: 22px;
+}
+
+.social-logo{
+    margin: 0 2%;
+    width: 40%;
+    fill: rgba(255, 255, 255, .7);
+    transition: .3s;
+}
+
+.social-logo:hover{
+    fill: white;
+}
+
+.mid-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mid-footer h4{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.bottom-footer{
+    padding: 1%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-footer h4{
+    margin: 0 .5%;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.bottom-footer a{
+   margin: 0 .5%;
+}
+
+.credit-logo{
+    fill: white;
+}
+
+@media (480px<width<767px){
+
+    .social-logo{
+        width: 5%;
+    }
+}
+
+@media (width<=480px){
+
+    .bottom-footer{
+        margin: 2% 0;
+    }
+
+    .bottom-footer h4{
+        margin: 0 2%;
+    }
+    
+    .bottom-footer a{
+       margin: 0 2%;
+    }
+
+       
+    .top-footer-text{
+        margin-left: 4%;
+    } 
+    
+    .footer-logo{
+        margin-right: 4%;
+    }
+
+    .top-footer h3{
+        font-size: 24px;
+        color: white;
+    }
+
+    .footer-logo{
+        margin-right: 1%;
+        width: 96px;
+        height: auto;
+    }
+
+    .footer ul li{
+        font-size: 18px;
+    }
+
+    .mid-footer h4{
+        font-size: 18px;
+    }
+
+    .social-logo{
+        width: 35%;
+    }
+}

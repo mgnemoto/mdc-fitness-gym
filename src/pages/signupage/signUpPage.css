@@ -1,0 +1,25 @@
+.color-letra{
+    color: white;
+}
+
+.form{
+    margin: 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form h4{
+    color: white;
+    margin-bottom: 5%;
+}
+
+.item-form{
+    width: 40%;
+}
+
+@media(width<=767px){
+    .form{
+        margin: 30% 0;
+    }
+}
