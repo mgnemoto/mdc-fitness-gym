@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/mdc-finess-gym/static/css/main.34a15201.css",
-    "main.js": "/mdc-finess-gym/static/js/main.751bc9f2.js",
-    "static/js/787.28de96bc.chunk.js": "/mdc-finess-gym/static/js/787.28de96bc.chunk.js",
-    "static/media/indoor.jpg.png": "/mdc-finess-gym/static/media/indoor.jpg.53d3f5c7c9840f326d5d.png",
-    "static/media/streching full.jpg.png": "/mdc-finess-gym/static/media/streching full.jpg.fd21c61f57a0880859ba.png",
-    "static/media/yoga.jpg.png": "/mdc-finess-gym/static/media/yoga.jpg.e2dea6d40193d0f0da8d.png",
-    "static/media/boxeo.jpg.png": "/mdc-finess-gym/static/media/boxeo.jpg.257bee6d4be81426eb36.png",
-    "static/media/baile latino.jpg": "/mdc-finess-gym/static/media/baile latino.11140dabe37e4bd0dd11.jpg",
-    "static/media/danza arabe.jpg": "/mdc-finess-gym/static/media/danza arabe.d020c19f5290cd122c8d.jpg",
-    "static/media/local streching.jpg": "/mdc-finess-gym/static/media/local streching.a0c7a4a634ff22b7f859.jpg",
-    "static/media/local cuarto.jpg": "/mdc-finess-gym/static/media/local cuarto.67685711790449c9b816.jpg",
-    "static/media/streching cuarto.jpg": "/mdc-finess-gym/static/media/streching cuarto.ebf848a5d8cd57500a5c.jpg",
-    "static/media/yoga cuarto.jpg": "/mdc-finess-gym/static/media/yoga cuarto.6916e3a9a887b077c07c.jpg",
-    "static/media/boxeo tercio.jpg": "/mdc-finess-gym/static/media/boxeo tercio.d8182b78ba0f75dc2ab0.jpg",
-    "static/media/logo mdc nuevo.png": "/mdc-finess-gym/static/media/logo mdc nuevo.bab9c1e0649962f4ca09.png",
-    "static/media/brazo.png": "/mdc-finess-gym/static/media/brazo.d8bef88039748afa1adb.png",
-    "index.html": "/mdc-finess-gym/index.html",
-    "main.34a15201.css.map": "/mdc-finess-gym/static/css/main.34a15201.css.map",
-    "main.751bc9f2.js.map": "/mdc-finess-gym/static/js/main.751bc9f2.js.map",
-    "787.28de96bc.chunk.js.map": "/mdc-finess-gym/static/js/787.28de96bc.chunk.js.map"
+    "main.css": "/mdc-fitness-gym/static/css/main.34a15201.css",
+    "main.js": "/mdc-fitness-gym/static/js/main.8f4ed0d7.js",
+    "static/js/787.28de96bc.chunk.js": "/mdc-fitness-gym/static/js/787.28de96bc.chunk.js",
+    "static/media/indoor.jpg.png": "/mdc-fitness-gym/static/media/indoor.jpg.53d3f5c7c9840f326d5d.png",
+    "static/media/streching full.jpg.png": "/mdc-fitness-gym/static/media/streching full.jpg.fd21c61f57a0880859ba.png",
+    "static/media/yoga.jpg.png": "/mdc-fitness-gym/static/media/yoga.jpg.e2dea6d40193d0f0da8d.png",
+    "static/media/boxeo.jpg.png": "/mdc-fitness-gym/static/media/boxeo.jpg.257bee6d4be81426eb36.png",
+    "static/media/baile latino.jpg": "/mdc-fitness-gym/static/media/baile latino.11140dabe37e4bd0dd11.jpg",
+    "static/media/danza arabe.jpg": "/mdc-fitness-gym/static/media/danza arabe.d020c19f5290cd122c8d.jpg",
+    "static/media/local streching.jpg": "/mdc-fitness-gym/static/media/local streching.a0c7a4a634ff22b7f859.jpg",
+    "static/media/local cuarto.jpg": "/mdc-fitness-gym/static/media/local cuarto.67685711790449c9b816.jpg",
+    "static/media/streching cuarto.jpg": "/mdc-fitness-gym/static/media/streching cuarto.ebf848a5d8cd57500a5c.jpg",
+    "static/media/yoga cuarto.jpg": "/mdc-fitness-gym/static/media/yoga cuarto.6916e3a9a887b077c07c.jpg",
+    "static/media/boxeo tercio.jpg": "/mdc-fitness-gym/static/media/boxeo tercio.d8182b78ba0f75dc2ab0.jpg",
+    "static/media/logo mdc nuevo.png": "/mdc-fitness-gym/static/media/logo mdc nuevo.bab9c1e0649962f4ca09.png",
+    "static/media/brazo.png": "/mdc-fitness-gym/static/media/brazo.d8bef88039748afa1adb.png",
+    "index.html": "/mdc-fitness-gym/index.html",
+    "main.34a15201.css.map": "/mdc-fitness-gym/static/css/main.34a15201.css.map",
+    "main.8f4ed0d7.js.map": "/mdc-fitness-gym/static/js/main.8f4ed0d7.js.map",
+    "787.28de96bc.chunk.js.map": "/mdc-fitness-gym/static/js/787.28de96bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34a15201.css",
-    "static/js/main.751bc9f2.js"
+    "static/js/main.8f4ed0d7.js"
   ]
 }
